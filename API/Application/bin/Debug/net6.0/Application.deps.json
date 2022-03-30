@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Application/1.0.0": {
+        "dependencies": {
+          "Application.Interfaces": "1.0.0",
+          "DecimalMath.DecimalEx": "1.0.2",
+          "Persistence.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
+      "DecimalMath.DecimalEx/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/DecimalEx.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Application.Interfaces/1.0.0": {
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Application.Interfaces.dll": {}
+        }
+      },
+      "Domain.Interfaces/1.0.0": {
+        "runtime": {
+          "Domain.Interfaces.dll": {}
+        }
+      },
+      "Persistence.Interfaces/1.0.0": {
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Persistence.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DecimalMath.DecimalEx/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BCii/IxT7Tx7BPZ7MtrpqVlEii/iaHi4OOXpgaPi+zrphnkbe251KKI3S+pgnTzobfn0jS/SF7bgidqOMj1oGw==",
+      "path": "decimalmath.decimalex/1.0.2",
+      "hashPath": "decimalmath.decimalex.1.0.2.nupkg.sha512"
+    },
+    "Application.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persistence.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

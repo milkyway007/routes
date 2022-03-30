@@ -1,0 +1,425 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\TestApp\\TestApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\Application.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\Application.Interfaces.csproj",
+        "projectName": "Application.Interfaces",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\Application.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\Application.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application.Interfaces\\Application.Interfaces.csproj"
+              },
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DecimalMath.DecimalEx": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectName": "Domain.Interfaces",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj",
+        "projectName": "Persistence.Interfaces",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lida\\source\\repos\\Routes\\API\\TestApp\\TestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\TestApp\\TestApp.csproj",
+        "projectName": "TestApp",
+        "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\TestApp\\TestApp.csproj",
+        "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\TestApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj"
+              },
+              "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

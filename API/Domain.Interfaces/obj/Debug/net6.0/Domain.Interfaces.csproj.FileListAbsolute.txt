@@ -1,0 +1,12 @@
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\bin\Debug\net6.0\Domain.Interfaces.deps.json
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\bin\Debug\net6.0\Domain.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\bin\Debug\net6.0\Domain.Interfaces.pdb
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.AssemblyInfo.cs
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\refint\Domain.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\Domain.Interfaces.pdb
+C:\Users\Lida\source\repos\Routes\API\Domain.Interfaces\obj\Debug\net6.0\ref\Domain.Interfaces.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AR6ywQPd1LtQO26GMiPGq5JG9NH7oFFaR4PD1PquQrQsnXjR/kzpha7PBkPL+99xwFrhBQskGNBLs6G7qYb36g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lida\\.nuget\\packages\\decimalmath.decimalex\\1.0.2\\decimalmath.decimalex.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

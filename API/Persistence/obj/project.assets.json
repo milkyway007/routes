@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Domain.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        }
+      },
+      "Persistence.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistence.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistence.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Interfaces/Domain.Interfaces.csproj",
+      "msbuildProject": "../Domain.Interfaces/Domain.Interfaces.csproj"
+    },
+    "Persistence.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Persistence.Interfaces/Persistence.Interfaces.csproj",
+      "msbuildProject": "../Persistence.Interfaces/Persistence.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "Persistence.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lida\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj",
+      "projectName": "Persistence",
+      "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\Lida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Lida\\source\\repos\\Routes\\API\\Persistence.Interfaces\\Persistence.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

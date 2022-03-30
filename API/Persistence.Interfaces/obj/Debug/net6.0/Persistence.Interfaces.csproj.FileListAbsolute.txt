@@ -1,0 +1,15 @@
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\bin\Debug\net6.0\Persistence.Interfaces.deps.json
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\bin\Debug\net6.0\Persistence.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\bin\Debug\net6.0\Persistence.Interfaces.pdb
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\bin\Debug\net6.0\Domain.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\bin\Debug\net6.0\Domain.Interfaces.pdb
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.AssemblyInfo.cs
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.csproj.CopyComplete
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\refint\Persistence.Interfaces.dll
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\Persistence.Interfaces.pdb
+C:\Users\Lida\source\repos\Routes\API\Persistence.Interfaces\obj\Debug\net6.0\ref\Persistence.Interfaces.dll
